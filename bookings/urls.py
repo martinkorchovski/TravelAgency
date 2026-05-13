@@ -1,7 +1,9 @@
 from django.urls import path
-from .views import *
+from . import views
 
 urlpatterns = [
-    path('', BookingListCreateView.as_view()),
-    path('<int:pk>/', BookingDetailView.as_view()),
+    path('', views.BookingListCreateView.as_view()),
+    path('<int:pk>/', views.BookingDetailView.as_view()),
+    path('my/',views.my_bookings),
+    path('<int:pk>/status/',views.update_booking_status),
 ]
