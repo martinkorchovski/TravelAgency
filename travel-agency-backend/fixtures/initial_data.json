@@ -1,0 +1,1169 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-12T15:53:13.018Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Summer in Santorini",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-12T15:55:48.523Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-06-18T11:14:01.129Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-06-18T11:14:17.991Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-06-18T11:15:51.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Summer in Santorini",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-06-18T11:36:54.808Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-06-18T11:46:30.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Amsterdam Explorer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-06-18T11:47:26.535Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Amsterdam Explorer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-06-18T11:48:03.229Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Rome & Vatican",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-06-18T11:48:31.199Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Maldives Paradise",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-06-18T11:49:04.253Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Paris City Break",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-06-18T11:49:40.167Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Summer in Santorini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-06-18T11:50:49.793Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Prague Old Town",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-06-18T11:51:41.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Barcelona Beach & Culture",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-06-18T11:57:40.004Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Tokyo Adventure",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-06-18T11:58:46.426Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Lisbon Escape",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-06-18T11:59:13.799Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Bali Paradise",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-06-18T11:59:40.439Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "New York City",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-06-18T12:00:00.141Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Barcelona Beach & Culture",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-06-18T12:00:34.752Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-06-18T12:05:32.041Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Cappadocia Experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-06-18T12:06:16.784Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Istanbul City Break",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-06-18T12:07:04.429Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-06-18T12:07:10.580Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Dubai Luxury Experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-06-18T12:07:58.677Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Hurghada All Inclusive",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-06-18T12:10:11.228Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Marrakech Magic",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-06-18T12:10:34.368Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Dubrovnik Pearl",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-06-18T12:10:57.042Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Vienna Classic",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-06-18T13:24:09.130Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Магијата на Маракеш",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-06-18T13:24:52.531Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Dubrovnik Pearl",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-06-18T13:25:12.519Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Vienna Classic",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-06-18T13:27:23.676Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Небото над Кападокија",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-06-18T13:27:46.435Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Дубровнички Бисер",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-06-18T13:28:28.799Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Елеганцијата на Виена",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-06-18T13:29:17.262Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Шармот на Истанбул",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-06-18T13:30:19.909Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Египетско сонце и море",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-06-18T13:31:14.851Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Боите на Лисабон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-06-18T13:33:18.727Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Њујорк – град на бескрајни можности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-06-18T13:33:55.234Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Рајскиот Бал",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-06-18T13:34:35.861Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Јапонска авантура",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-06-18T13:35:30.480Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Прага – Сказна од камен и светлина",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-06-18T13:36:24.774Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Каде што уметноста се среќава со морето - Барселона",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-06-18T13:37:54.187Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Рајот на Малдивите",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-06-18T13:38:48.026Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Градот на иднината и луксузот",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-06-18T13:39:43.336Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Срцето на духовноста и уметноста - Ватикан",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-06-18T13:40:37.833Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Холандска приказна",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-06-18T13:41:09.569Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Под Ајфеловата кула",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-06-18T13:42:03.655Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Белите куќи на Санторини",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Country\", \"City\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-06-18T13:42:43.237Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Рајскиот Бали",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-06-19T14:00:37.195Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "martin - Градот на иднината и луксузот",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-06-19T14:00:40.561Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "martin - Јапонска авантура",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-06-19T14:00:43.744Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "martin - Јапонска авантура",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-06-19T14:00:48.074Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "martin - Јапонска авантура",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-06-19T14:00:52.071Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "jovan - Градот на иднината и луксузот",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-06-19T14:00:55.302Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Ivan - Градот на иднината и луксузот",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-06-19T14:01:00.301Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Ivan - Градот на иднината и луксузот",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-06-19T14:01:04.431Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Martin - Белите куќи на Санторини",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-06-19T14:01:18.408Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Petar Petrov - Шармот на Истанбул",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-06-19T14:01:31.127Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Petar Petrov - Шармот на Истанбул",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$WurJ7fzYGPLbNPCftAXZYH$II9q4hUIqt840dBtrcRrn943TlY9TxkbJtjBc9d3Fck=",
+    "last_login": "2026-06-18T11:05:13.816Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-12T15:37:30.942Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$7QeC27GKtvIRLoq1f1KVll$GnbYLi35EEWmRov6nLyJWhFNCO7JxMC2wPXmCeq2pYk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "user@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-18T11:04:52.029Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$B4VexbicvH4moPDKy15Snm$zAt/oPjsq0Tk+McQap/UtH0V3+f4LHGfKATNdXroplc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "user1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-18T18:09:01.564Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h9mdob5hzvakvychx5wwhckwk72rnurn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xY4p6TmDtbte4wBypDipEHeHSCmgfTPzXiLBtta0dV7SlMVZaHH63RDowW0H-Q7tNkua27pMKHdFHrTL65z5eTncv4MKvX5r0tEMChxYJi4RMUYbBkW5KOtH7SgqH0ww5NmgJc3svQZbjHIB4-jE-wPfFTdw:1waAYb:qkIwxqsCzMcQ795hS297xCvmr6EIyY3Ni4HGaHJyNLc",
+    "expire_date": "2026-07-02T11:05:13.842Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pk5hwk1glecomkcl7yypmky2gupetlqt",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xY4p6TmDtbte4wBypDipEHeHSCmgfTPzXiLBtta0dV7SlMVZaHH63RDowW0H-Q7tNkua27pMKHdFHrTL65z5eTncv4MKvX5r0tEMChxYJi4RMUYbBkW5KOtH7SgqH0ww5NmgJc3svQZbjHIB4-jE-wPfFTdw:1wMpBH:zZV8rPGCy0O7m7mXoVW4Y2bYA8uDZFCCn7doBzERSQA",
+    "expire_date": "2026-05-26T15:37:59.986Z"
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 2,
+  "fields": {
+    "name": "Белите куќи на Санторини",
+    "country": "Грција",
+    "city": "Санторини",
+    "price": 699,
+    "description": "Грчки остров познат по белите куќи, сини куполи и прекрасни зајдисонца.",
+    "image": "destinations_images/filters_formatwebp_quality70.webp",
+    "duration": "7",
+    "rating": 4.9,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 5,
+  "fields": {
+    "name": "Под Ајфеловата кула",
+    "country": "Франција",
+    "city": "Париз",
+    "price": 450,
+    "description": "Романтично бегство во градот на светлината.",
+    "image": "destinations_images/paris.jpg",
+    "duration": "7 дена",
+    "rating": 4.8,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 6,
+  "fields": {
+    "name": "Холандска приказна",
+    "country": "Холандија",
+    "city": "Амстердам",
+    "price": 380,
+    "description": "Канали, култура и лалиња.",
+    "image": "destinations_images/amsterdam1.jpg",
+    "duration": "5 дена",
+    "rating": 4.7,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 7,
+  "fields": {
+    "name": "Срцето на духовноста и уметноста - Ватикан",
+    "country": "Италија",
+    "city": "Ватикан",
+    "price": 420,
+    "description": "Вечен град со историја на секој агол.",
+    "image": "destinations_images/vatican.webp",
+    "duration": "6 дена",
+    "rating": 4.9,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 9,
+  "fields": {
+    "name": "Градот на иднината и луксузот",
+    "country": "Обединети Арапски Емирати",
+    "city": "Дубаи",
+    "price": 1199,
+    "description": "Доживејте луксузни трговски центри, сафари во пустина и многу повеќе.",
+    "image": "destinations_images/dubai.webp",
+    "duration": "8 дена",
+    "rating": 4.8,
+    "is_featured": true
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 10,
+  "fields": {
+    "name": "Рајот на Малдивите",
+    "country": "Малдиви",
+    "city": "Мале",
+    "price": 1599,
+    "description": "Кристално чиста вода и бунгалови над вода.",
+    "image": "destinations_images/maldives.webp",
+    "duration": "10 дена",
+    "rating": 5.0,
+    "is_featured": true
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 11,
+  "fields": {
+    "name": "Каде што уметноста се среќава со морето - Барселона",
+    "country": "Шпанија",
+    "city": "Барселона",
+    "price": 390,
+    "description": "Сонце, уметност, архитектура и неверојатна храна на медитеранскиот брег.",
+    "image": "destinations_images/barcelona.jpg",
+    "duration": "6 дена",
+    "rating": 4.8,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 12,
+  "fields": {
+    "name": "Прага – Сказна од камен и светлина",
+    "country": "Чешка",
+    "city": "Прага",
+    "price": 320,
+    "description": "Бајковита архитектура и жив ноќен живот во срцето на Европа.",
+    "image": "destinations_images/prague.webp",
+    "duration": "5 дена",
+    "rating": 4.7,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 13,
+  "fields": {
+    "name": "Јапонска авантура",
+    "country": "Јапонија",
+    "city": "Токио",
+    "price": 890,
+    "description": "Истражете ја совршената мешавина од традиција и футуристичка технологија.",
+    "image": "destinations_images/tokyo.webp",
+    "duration": "8 дена",
+    "rating": 4.9,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 14,
+  "fields": {
+    "name": "Рајскиот Бали",
+    "country": "Индонезија",
+    "city": "Бали",
+    "price": 560,
+    "description": "Тропски плажи, оризови тераси и антички храмови.",
+    "image": "destinations_images/bali.jpg",
+    "duration": "7 дена",
+    "rating": 4.8,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 15,
+  "fields": {
+    "name": "Њујорк – град на бескрајни можности",
+    "country": "Соединети Американски Држави",
+    "city": "Њујорк",
+    "price": 750,
+    "description": "Градот што никогаш не спие - Тајмс Сквер, Централ Парк и друго.",
+    "image": "destinations_images/new_york.jpg",
+    "duration": "6 дена",
+    "rating": 4.7,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 16,
+  "fields": {
+    "name": "Боите на Лисабон",
+    "country": "Португалија",
+    "city": "Лисабон",
+    "price": 350,
+    "description": "Шармантен стар град, вкусна храна и прекрасен поглед на Атлантикот.",
+    "image": "destinations_images/lisbon.jpg",
+    "duration": "5 дена",
+    "rating": 4.8,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 17,
+  "fields": {
+    "name": "Египетско сонце и море",
+    "country": "Египет",
+    "city": "Хургада",
+    "price": 1399,
+    "description": "Совршена комбинација од златни плажи, тиркизно море и египетско гостопримство.",
+    "image": "destinations_images/hurghada.jpg",
+    "duration": "7 дена",
+    "rating": 4.7,
+    "is_featured": true
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 18,
+  "fields": {
+    "name": "Шармот на Истанбул",
+    "country": "Турција",
+    "city": "Истанбул",
+    "price": 1099,
+    "description": "Каде што Истокот се среќава со Западот — џамии, чаршии и поглед на Босфор.",
+    "image": "destinations_images/istanbul.avif",
+    "duration": "5 дена",
+    "rating": 4.8,
+    "is_featured": true
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 19,
+  "fields": {
+    "name": "Небото над Кападокија",
+    "country": "Турција",
+    "city": "Гереме",
+    "price": 899,
+    "description": "Импресивни пејзажи, древни пештерски населби и спектакуларни изгрејсонца над Кападокија.",
+    "image": "destinations_images/cappadocia.jpg",
+    "duration": "8 дена",
+    "rating": 4.9,
+    "is_featured": true
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 20,
+  "fields": {
+    "name": "Елеганцијата на Виена",
+    "country": "Австрија",
+    "city": "Виена",
+    "price": 410,
+    "description": "Царски палати, класична музика и кафичи од светска класа.",
+    "image": "destinations_images/viena.jpg",
+    "duration": "5 дена",
+    "rating": 4.8,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 21,
+  "fields": {
+    "name": "Дубровнички Бисер",
+    "country": "Хрватска",
+    "city": "Дубровник",
+    "price": 370,
+    "description": "Бисерот на Јадранот со прекрасни стари градски ѕидини и кристално море.",
+    "image": "destinations_images/dubrovnik.jpg",
+    "duration": "6 дена",
+    "rating": 4.9,
+    "is_featured": false
+  }
+},
+{
+  "model": "destinations.destination",
+  "pk": 22,
+  "fields": {
+    "name": "Магијата на Маракеш",
+    "country": "Мароко",
+    "city": "Маракеш",
+    "price": 540,
+    "description": "Откријте го шармот на Маракеш низ неговите живописни пазари, богата култура и незаборавна ориентална атмосфера.",
+    "image": "destinations_images/marrakech.jpg",
+    "duration": "6 дена",
+    "rating": 4.8,
+    "is_featured": true
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "full_name": "Ivan Ivanov",
+    "email": "ivanov@gmail.com",
+    "phone": "077 777 777",
+    "persons": 2,
+    "destination": 13,
+    "travel_date": "2026-06-25",
+    "return_date": "2026-07-07",
+    "status": "cancelled",
+    "total_price": 1780,
+    "created_at": "2026-06-18T17:54:41.082Z"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "full_name": "Petar Petrov",
+    "email": "petar@gmail.com",
+    "phone": "078 999 999",
+    "persons": 3,
+    "destination": 18,
+    "travel_date": "2026-06-21",
+    "return_date": "2026-06-30",
+    "status": "cancelled",
+    "total_price": 3297,
+    "created_at": "2026-06-18T18:26:57.530Z"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 1,
+  "fields": {
+    "name": "Martin",
+    "email": "martin@gmail.com",
+    "message": "Message"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 2,
+  "fields": {
+    "name": "Petar Petrovski",
+    "email": "petar@gmail.com",
+    "message": "Poraka"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "phone": ""
+  }
+}
+]
