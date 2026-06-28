@@ -8,3 +8,12 @@ export async function getDestinations() {
     image: dest.image ? `${BASE_URL}${dest.image}` : 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=500'
   }))
 }
+
+export async function getHotelsByDestination(destinationId: number) {
+  const response = await fetch(`${BASE_URL}/api/hotels/?destination=${destinationId}`)
+  const data = await response.json()
+  return data.map((hotel: any) => ({
+    ...hotel,
+    image: hotel.image ? hotel.image : 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500'
+  }))
+}

@@ -6,7 +6,6 @@ import { useRouter } from 'vue-router'
 const destinations = ref([] as any[])
 const router = useRouter()
 const searchCountry = ref('')
-const searchPrice = ref('all')
 
 const specialOffers = computed(() => destinations.value.filter(d => d.is_featured).slice(0, 3))
 const regularDestinations = computed(() => destinations.value.filter(d => !d.is_featured).slice(0, 6))
@@ -24,7 +23,6 @@ function handleSearch() {
     path: '/destinations',
     query: {
       country: searchCountry.value || undefined,
-      price: searchPrice.value !== 'all' ? searchPrice.value : undefined
     }
   })
 }
@@ -35,16 +33,16 @@ function handleSearch() {
 
     <!-- Hero Section -->
     <div
-      class="relative h-[550px] flex items-center justify-center text-white"
-      style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600'); background-size: cover; background-position: center;"
+        class="relative h-[550px] flex items-center justify-center text-white"
+        style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600'); background-size: cover; background-position: center;"
     >
       <div class="absolute inset-0 bg-black/50"></div>
       <div class="relative z-10 text-center px-6">
         <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">Откријте го светот со нас</h1>
         <p class="text-xl mb-8 drop-shadow">Најдобри дестинации, најдобри цени — резервирај онлајн</p>
         <RouterLink
-          to="/destinations"
-          class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-10 py-4 rounded-full text-lg transition"
+            to="/destinations"
+            class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-10 py-4 rounded-full text-lg transition"
         >
           Погледни дестинации
         </RouterLink>
@@ -53,28 +51,19 @@ function handleSearch() {
 
     <!-- Search Box -->
     <div class="relative z-20 max-w-6xl mx-auto px-6 -mt-16">
-      <div class="bg-white rounded-3xl shadow-xl p-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-white rounded-3xl shadow-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
         <select
-          v-model="searchCountry"
-          class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
+            v-model="searchCountry"
+            class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
         >
           <option value="">Сите држави</option>
           <option v-for="country in countries" :key="country" :value="country">
             {{ country }}
           </option>
         </select>
-        <select
-          v-model="searchPrice"
-          class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
-        >
-          <option value="all">Сите цени</option>
-          <option value="under300">До 300€</option>
-          <option value="300to600">300€ - 600€</option>
-          <option value="over600">Над 600€</option>
-        </select>
         <button
-          @click="handleSearch"
-          class="bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl px-6 py-3"
+            @click="handleSearch"
+            class="bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl px-6 py-3"
         >
           Барај
         </button>
@@ -133,43 +122,67 @@ function handleSearch() {
     <div class="bg-gray-50 py-16 px-6">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-10">
-          <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">Специјални понуди</p>
+          <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">
+            Специјални понуди
+          </p>
           <h2 class="text-4xl font-bold text-gray-800">Пакет аранжмани</h2>
         </div>
-        <div v-if="specialOffers.length === 0" class="text-center text-gray-400 text-xl">
+
+        <div
+            v-if="specialOffers.length === 0"
+            class="text-center text-gray-400 text-xl"
+        >
           Нема понуди се уште.
         </div>
+
         <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div
-            v-for="(dest, index) in specialOffers"
-            :key="dest.id"
-            class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300 cursor-pointer group"
-            @click="router.push(`/destinations/${dest.id}`)"
+              v-for="(dest, index) in specialOffers"
+              :key="dest.id"
+              class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 cursor-pointer group"
+              @click="router.push(`/destinations/${dest.id}`)"
           >
+            <!-- Image -->
             <div class="relative overflow-hidden h-56">
-              <img :src="dest.image" class="h-full w-full object-cover group-hover:scale-105 transition duration-300" />
+              <img
+                  :src="dest.image"
+                  class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+              />
+
+              <!-- Badge -->
               <span
-                class="absolute top-4 left-4 text-white text-sm font-bold px-3 py-1 rounded-full"
-                :class="index === 0 ? 'bg-red-500' : index === 1 ? 'bg-orange-500' : 'bg-green-500'"
+                  class="absolute top-4 left-4 text-white text-sm font-bold px-3 py-1 rounded-full"
+                  :class="index === 0 ? 'bg-red-500' : index === 1 ? 'bg-orange-500' : 'bg-green-500'"
               >
-                {{ index === 0 ? '-20%' : index === 1 ? 'Last Minute' : 'Early Booking' }}
-              </span>
+            {{ index === 0 ? '-20%' : index === 1 ? 'Last Minute' : 'Early Booking' }}
+          </span>
+
+              <!-- Dark overlay -->
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+
+              <!-- Title -->
+              <div class="absolute bottom-4 left-4">
+                <h3 class="text-white text-2xl font-bold">
+                  {{ dest.name }}
+                </h3>
+              </div>
             </div>
-            <div class="p-5">
-              <h3 class="text-xl font-bold">{{ dest.name }}</h3>
-              <p class="text-gray-500 mt-1">{{ dest.country }}</p>
-              <div class="flex justify-between items-center mt-5">
-                <div>
-                  <p class="text-gray-400 text-xs line-through">€{{ dest.price + 100 }}</p>
-                  <p class="text-orange-500 font-bold text-2xl">од €{{ dest.price }}</p>
-                </div>
-                <button
+
+            <!-- Bottom -->
+            <div class="p-4 flex items-center justify-between">
+              <div>
+                <p class="text-gray-400 text-xs">Држава</p>
+                <p class="text-gray-900 font-bold text-lg">
+                  {{ dest.country }}
+                </p>
+              </div>
+
+              <button
                   @click.stop="router.push(`/destinations/${dest.id}`)"
                   class="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full font-bold transition"
-                >
-                  Детали
-                </button>
-              </div>
+              >
+                Детали
+              </button>
             </div>
           </div>
         </div>
@@ -179,44 +192,67 @@ function handleSearch() {
     <!-- Popular Destinations -->
     <div class="max-w-6xl mx-auto px-6 py-16">
       <div class="text-center mb-10">
-        <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">Дестинации</p>
+        <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">
+          Дестинации
+        </p>
         <h2 class="text-4xl font-bold">Каде сакате да патувате?</h2>
       </div>
-      <div v-if="regularDestinations.length === 0" class="text-center text-gray-400 text-xl">
+
+      <div
+          v-if="regularDestinations.length === 0"
+          class="text-center text-gray-400 text-xl"
+      >
         Нема дестинации се уште.
       </div>
+
       <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div
-          v-for="dest in regularDestinations"
-          :key="dest.id"
-          class="rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition cursor-pointer group"
-          @click="router.push(`/destinations/${dest.id}`)"
+            v-for="dest in regularDestinations"
+            :key="dest.id"
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300 cursor-pointer group"
+            @click="router.push(`/destinations/${dest.id}`)"
         >
-          <div class="relative overflow-hidden h-52">
-            <img :src="dest.image" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
-              <h3 class="text-white text-xl font-bold">{{ dest.name }}</h3>
-              <p class="text-white/80 text-sm">{{ dest.country }}</p>
+          <!-- Image -->
+          <div class="relative overflow-hidden h-56">
+            <img
+                :src="dest.image"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            />
+
+            <!-- Dark overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+
+            <!-- Title -->
+            <div class="absolute bottom-4 left-4">
+              <h3 class="text-white text-2xl font-bold">
+                {{ dest.name }}
+              </h3>
             </div>
           </div>
+
+          <!-- Bottom -->
           <div class="p-4 flex items-center justify-between bg-white">
             <div>
-              <p class="text-gray-400 text-xs">по лице</p>
-              <p class="text-orange-500 font-bold text-lg">€{{ dest.price }}</p>
+              <p class="text-gray-400 text-xs">Држава</p>
+              <p class="text-gray-900 font-bold text-lg">
+                {{ dest.country }}
+              </p>
             </div>
+
             <button
-              @click.stop="router.push(`/destinations/${dest.id}`)"
-              class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-5 py-2 rounded-full transition"
+                @click.stop="router.push(`/destinations/${dest.id}`)"
+                class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-5 py-2 rounded-full transition"
             >
               Детали
             </button>
           </div>
         </div>
       </div>
+
       <div class="text-center mt-8">
         <RouterLink
-          to="/destinations"
-          class="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-bold px-8 py-3 rounded-full transition"
+            to="/destinations"
+            class="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-bold px-8 py-3 rounded-full transition"
         >
           Погледни ги сите →
         </RouterLink>
@@ -253,8 +289,8 @@ function handleSearch() {
       <h2 class="text-4xl font-bold mb-4">Подготвен за следната авантура?</h2>
       <p class="mb-8 text-lg">Изберија твојата следна дестинација и резервирај онлајн.</p>
       <RouterLink
-        to="/destinations"
-        class="bg-white text-orange-500 font-bold px-8 py-4 rounded-full hover:bg-orange-50 transition"
+          to="/destinations"
+          class="bg-white text-orange-500 font-bold px-8 py-4 rounded-full hover:bg-orange-50 transition"
       >
         Погледни дестинации →
       </RouterLink>

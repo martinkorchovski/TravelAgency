@@ -117,6 +117,11 @@ function handleClose() {
             <strong>Враќање:</strong> {{ booking.return_date }}
           </p>
 
+          <p class="text-gray-500 mb-1">
+            <strong>Вкупна цена:</strong>
+            <span class="text-orange-500 font-bold">€{{ booking.total_price }}</span>
+          </p>
+
           <div class="mt-4">
             <span
               v-if="booking.status === 'pending'"
