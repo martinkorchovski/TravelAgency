@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d357fdf-cf26-409c-b437-7d0f1185b6c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookings/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookings/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations_images/Santorini_feature-scaled-1920x960-resized-q10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations_images/clothes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations_images/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/api/destinations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/api/destinations.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/views/BookingView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/views/BookingView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/views/DestinationDetailsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/views/DestinationDetailsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/views/DestinationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/views/DestinationsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/views/MyBookingsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/views/MyBookingsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

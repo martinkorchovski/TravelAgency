@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'contacts',
     'users',
     'hotels',
+    'reviews',
 ]
 
 MIDDLEWARE = [
