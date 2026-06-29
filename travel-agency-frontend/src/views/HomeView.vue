@@ -31,7 +31,6 @@ function handleSearch() {
 <template>
   <div>
 
-    <!-- Hero Section -->
     <div
         class="relative h-[550px] flex items-center justify-center text-white"
         style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600'); background-size: cover; background-position: center;"
@@ -49,7 +48,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Search Box -->
     <div class="relative z-20 max-w-6xl mx-auto px-6 -mt-16">
       <div class="bg-white rounded-3xl shadow-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
         <select
@@ -70,7 +68,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Categories Section -->
     <div class="max-w-6xl mx-auto px-6 py-14">
       <div class="text-center mb-10">
         <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">Категории</p>
@@ -96,7 +93,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Stats Section -->
     <div class="bg-gray-50 pt-24 pb-10 border-b">
       <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div>
@@ -118,7 +114,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Special Offers -->
     <div class="bg-gray-50 py-16 px-6">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-10">
@@ -142,14 +137,12 @@ function handleSearch() {
               class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 cursor-pointer group"
               @click="router.push(`/destinations/${dest.id}`)"
           >
-            <!-- Image -->
             <div class="relative overflow-hidden h-56">
               <img
                   :src="dest.image"
                   class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
               />
 
-              <!-- Badge -->
               <span
                   class="absolute top-4 left-4 text-white text-sm font-bold px-3 py-1 rounded-full"
                   :class="index === 0 ? 'bg-red-500' : index === 1 ? 'bg-orange-500' : 'bg-green-500'"
@@ -157,10 +150,8 @@ function handleSearch() {
             {{ index === 0 ? '-20%' : index === 1 ? 'Last Minute' : 'Early Booking' }}
           </span>
 
-              <!-- Dark overlay -->
               <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
 
-              <!-- Title -->
               <div class="absolute bottom-4 left-4">
                 <h3 class="text-white text-2xl font-bold">
                   {{ dest.name }}
@@ -168,7 +159,6 @@ function handleSearch() {
               </div>
             </div>
 
-            <!-- Bottom -->
             <div class="p-4 flex items-center justify-between">
               <div>
                 <p class="text-gray-400 text-xs">Држава</p>
@@ -189,7 +179,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Popular Destinations -->
     <div class="max-w-6xl mx-auto px-6 py-16">
       <div class="text-center mb-10">
         <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">
@@ -212,17 +201,14 @@ function handleSearch() {
             class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300 cursor-pointer group"
             @click="router.push(`/destinations/${dest.id}`)"
         >
-          <!-- Image -->
           <div class="relative overflow-hidden h-56">
             <img
                 :src="dest.image"
                 class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
             />
 
-            <!-- Dark overlay -->
             <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
 
-            <!-- Title -->
             <div class="absolute bottom-4 left-4">
               <h3 class="text-white text-2xl font-bold">
                 {{ dest.name }}
@@ -230,7 +216,6 @@ function handleSearch() {
             </div>
           </div>
 
-          <!-- Bottom -->
           <div class="p-4 flex items-center justify-between bg-white">
             <div>
               <p class="text-gray-400 text-xs">Држава</p>
@@ -259,7 +244,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Why Us Section -->
     <div class="bg-gray-50 py-16 px-6">
       <div class="max-w-5xl mx-auto text-center mb-10">
         <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">Зошто ние?</p>
@@ -284,7 +268,6 @@ function handleSearch() {
       </div>
     </div>
 
-    <!-- Newsletter -->
     <div class="bg-orange-500 py-16 px-6 text-white text-center">
       <h2 class="text-4xl font-bold mb-4">Подготвен за следната авантура?</h2>
       <p class="mb-8 text-lg">Изберија твојата следна дестинација и резервирај онлајн.</p>

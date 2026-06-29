@@ -17,3 +17,8 @@ export async function getHotelsByDestination(destinationId: number) {
     image: hotel.image ? hotel.image : 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500'
   }))
 }
+
+export async function getReviewsByHotel(hotelId: number) {
+  const response = await fetch(`http://127.0.0.1:8000/api/reviews/?hotel=${hotelId}`)
+  return await response.json()
+}

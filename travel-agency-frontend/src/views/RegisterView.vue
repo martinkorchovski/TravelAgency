@@ -40,7 +40,6 @@ async function register() {
 
     <div class="relative z-10 w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 bg-white rounded-3xl shadow-2xl overflow-hidden">
       
-      <!-- Left side -->
       <div class="hidden md:flex flex-col justify-center p-10 bg-orange-500 text-white">
         <p class="uppercase tracking-wider font-semibold mb-3">TravelAgency</p>
         <h2 class="text-4xl font-bold mb-4">Започни го твоето патување</h2>
@@ -64,7 +63,6 @@ async function register() {
         </div>
       </div>
 
-      <!-- Form side -->
       <div class="p-8 md:p-10">
         <div class="mb-8">
           <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">Регистрација</p>

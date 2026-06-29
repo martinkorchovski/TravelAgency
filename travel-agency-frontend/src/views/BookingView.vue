@@ -98,7 +98,6 @@ async function createBooking() {
 
 <template>
   <div>
-    <!-- Hero -->
     <div class="relative h-64 flex items-center justify-center text-white"
          style="background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1600'); background-size: cover; background-position: center;">
       <div class="absolute inset-0 bg-black/50"></div>
@@ -164,9 +163,8 @@ async function createBooking() {
           </div>
         </div>
 
-        <!-- Пресметка -->
         <div v-if="selectedHotel && nights > 0" class="mt-6 bg-orange-50 rounded-2xl p-6 border border-orange-100">
-          <h3 class="text-lg font-bold text-gray-800 mb-4">Пресметка на цена</h3>
+          <h3 class="text-lg font-bold text-gray-800 mb-4">Вкупно</h3>
           <div class="flex justify-between text-gray-600 mb-2">
             <span>Хотел</span>
             <span class="font-medium">{{ selectedHotel.name }}</span>

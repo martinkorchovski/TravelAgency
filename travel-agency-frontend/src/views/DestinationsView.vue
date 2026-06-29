@@ -52,7 +52,6 @@ onMounted(async () => {
 <template>
   <div class="bg-gray-50">
 
-    <!-- Hero -->
     <div
         class="relative h-64 flex items-center justify-center text-white"
         style="background-image: url('https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1600'); background-size: cover; background-position: center;"
@@ -64,7 +63,6 @@ onMounted(async () => {
       </div>
     </div>
 
-    <!-- Filter Box -->
     <div class="relative z-20 max-w-6xl mx-auto px-6 -mt-10">
       <div class="bg-white rounded-3xl shadow-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
         <select

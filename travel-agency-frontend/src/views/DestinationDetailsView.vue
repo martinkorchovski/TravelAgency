@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { getDestinations } from '../api/destinations'
-import { getHotelsByDestination } from '../api/destinations'
+import { getDestinations, getHotelsByDestination, getReviewsByHotel } from '../api/destinations'
 
 const route = useRoute()
 const router = useRouter()
 
 const destination = ref<any>(null)
 const hotels = ref<any[]>([])
+const hotelReviews = ref<Record<number, any[]>>({})
 const loading = ref(true)
 const error = ref('')
 const sortOrder = ref('none')
@@ -31,6 +31,9 @@ onMounted(async () => {
       error.value = 'Дестинацијата не е пронајдена.'
     } else {
       hotels.value = await getHotelsByDestination(destination.value.id)
+      for (const hotel of hotels.value) {
+        hotelReviews.value[hotel.id] = await getReviewsByHotel(hotel.id)
+      }
     }
   } catch {
     error.value = 'Грешка при вчитување на дестинацијата.'
@@ -51,7 +54,6 @@ onMounted(async () => {
     </div>
 
     <div v-else>
-      <!-- Hero -->
       <div
           class="relative h-[420px] flex items-center justify-center text-white"
           :style="`background-image: url('${destination.image}'); background-size: cover; background-position: center;`"
@@ -63,7 +65,6 @@ onMounted(async () => {
         </div>
       </div>
 
-      <!-- Info -->
       <div class="max-w-6xl mx-auto px-6 py-16">
         <div class="bg-white rounded-3xl shadow p-8 text-center">
           <h2 class="text-3xl font-bold mb-4 text-gray-800">За дестинацијата</h2>
@@ -89,14 +90,12 @@ onMounted(async () => {
         </div>
       </div>
 
-      <!-- Hotels -->
       <div class="max-w-3xl mx-auto px-6 pb-16">
         <div class="text-center mb-6">
           <p class="text-orange-500 font-semibold uppercase tracking-wider mb-2">Сместување</p>
           <h2 class="text-4xl font-bold text-gray-800">Хотели во {{ destination.city }} - {{ destination.country }}</h2>
         </div>
 
-        <!-- Sort -->
         <div class="flex gap-3 justify-center mb-8">
           <button
               @click="sortOrder = 'asc'"
@@ -118,31 +117,54 @@ onMounted(async () => {
           Нема достапни хотели.
         </div>
 
-        <div v-else class="flex flex-col gap-4">
+        <div v-else class="flex flex-col gap-6">
           <div
               v-for="hotel in sortedHotels"
               :key="hotel.id"
-              class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-row"
+              class="bg-white rounded-2xl shadow-md overflow-hidden"
           >
-            <img :src="hotel.image" class="w-48 h-40 object-cover flex-shrink-0" />
-            <div class="p-5 flex flex-col justify-between flex-1">
-              <div>
-                <div class="flex items-center justify-between mb-1">
-                  <h3 class="text-lg font-bold text-gray-800">{{ hotel.name }}</h3>
-                  <span class="text-yellow-500 text-sm">{{ '★'.repeat(hotel.stars) }}</span>
+            <div class="flex flex-row">
+              <img :src="hotel.image" class="w-48 h-40 object-cover flex-shrink-0" />
+              <div class="p-5 flex flex-col justify-between flex-1">
+                <div>
+                  <div class="flex items-center justify-between mb-1">
+                    <h3 class="text-lg font-bold text-gray-800">{{ hotel.name }}</h3>
+                    <span class="text-yellow-500 text-sm">{{ '★'.repeat(hotel.stars) }}</span>
+                  </div>
+                  <div class="flex items-center justify-between text-sm text-gray-500 mt-1">
+                    <span>⭐ {{ hotel.rating }}/10</span>
+                    <span class="text-orange-500 font-bold text-base">€{{ hotel.price_per_night }}<span class="text-gray-400 font-normal text-xs"> / ноќ</span></span>
+                  </div>
                 </div>
-                <div class="flex items-center justify-between text-sm text-gray-500 mt-1">
-                  <span>⭐ {{ hotel.rating }}/10</span>
-                  <span class="text-orange-500 font-bold text-base">€{{ hotel.price_per_night }}<span class="text-gray-400 font-normal text-xs"> / ноќ</span></span>
+                <button
+                    @click="router.push(`/bookings?destinationId=${destination.id}&hotelId=${hotel.id}`)"
+                    class="mt-3 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 rounded-full transition text-sm"
+                >
+                  Резервирај →
+                </button>
+              </div>
+            </div>
+
+            <div v-if="hotelReviews[hotel.id] && hotelReviews[hotel.id].length > 0" class="border-t px-5 py-4">
+              <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Reviews</p>
+              <div
+                  :class="hotelReviews[hotel.id].length === 1 ? 'grid-cols-1' : hotelReviews[hotel.id].length === 2 ? 'grid-cols-2' : 'grid-cols-3'"
+                  class="grid gap-3"
+              >
+                <div
+                    v-for="review in hotelReviews[hotel.id]"
+                    :key="review.id"
+                    class="bg-gray-50 rounded-xl p-3"
+                >
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="font-semibold text-sm text-gray-800">{{ review.author }}</span>
+                    <span class="text-orange-500 text-sm font-bold">{{ review.rating }}/10</span>
+                  </div>
+                  <p class="text-gray-500 text-sm leading-relaxed">{{ review.comment }}</p>
                 </div>
               </div>
-              <button
-                  @click="router.push(`/bookings?destinationId=${destination.id}&hotelId=${hotel.id}`)"
-                  class="mt-3 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 rounded-full transition text-sm"
-              >
-                Резервирај →
-              </button>
             </div>
+
           </div>
         </div>
       </div>

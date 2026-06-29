@@ -12,7 +12,6 @@ function logout() {
 </script>
 
 <template>
-  <!-- Top bar -->
   <div class="bg-gray-900 text-white text-sm py-2 px-6 flex justify-between items-center">
     <div class="flex gap-4">
       <span>📞 +389 2 323 8083</span>
@@ -30,7 +29,6 @@ function logout() {
     </div>
   </div>
 
-  <!-- Main Navbar -->
   <nav class="bg-white shadow-md px-6 py-4 flex items-center justify-between sticky top-0 z-50">
     <div class="text-2xl font-bold text-orange-500">
       <RouterLink to="/">✈️ TravelAgency</RouterLink>

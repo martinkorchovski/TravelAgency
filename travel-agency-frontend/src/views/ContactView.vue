@@ -37,7 +37,6 @@ async function sendMessage() {
 
 <template>
   <div>
-    <!-- Hero -->
     <div class="relative h-64 flex items-center justify-center text-white"
       style="background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600'); background-size: cover; background-position: center;">
       <div class="absolute inset-0 bg-black/50"></div>
@@ -49,7 +48,6 @@ async function sendMessage() {
 
     <div class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12">
       
-      <!-- Form -->
       <div class="bg-white rounded-2xl shadow-lg p-8">
         <h2 class="text-2xl font-bold mb-6">Испрати порака</h2>
 
@@ -79,7 +77,6 @@ async function sendMessage() {
         </div>
       </div>
 
-      <!-- Contact Info -->
       <div class="flex flex-col gap-6">
         <div>
           <h2 class="text-2xl font-bold mb-6">Контакт информации</h2>
