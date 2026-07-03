@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d357fdf-cf26-409c-b437-7d0f1185b6c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/views/BookingView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/views/BookingView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../travel-agency-frontend/src/views/DestinationDetailsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-agency-frontend/src/views/DestinationDetailsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

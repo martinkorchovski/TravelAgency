@@ -1,0 +1,1774 @@
+[
+{
+  "model": "hotels.hotel",
+  "pk": 23,
+  "fields": {
+    "destination": 13,
+    "name": "Shinjuku Granbell Hotel",
+    "stars": 4,
+    "price_per_night": "210.00",
+    "rating": "8.7",
+    "image": "hotel_images/Shinjuku_Granbell_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 22,
+  "fields": {
+    "destination": 13,
+    "name": "Aman Tokyo",
+    "stars": 5,
+    "price_per_night": "780.00",
+    "rating": "9.8",
+    "image": "hotel_images/Aman.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 21,
+  "fields": {
+    "destination": 13,
+    "name": "Park Hyatt Tokyo",
+    "stars": 5,
+    "price_per_night": "520.00",
+    "rating": "9.6",
+    "image": "hotel_images/Park_Hyatt.webp"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 20,
+  "fields": {
+    "destination": 12,
+    "name": "Mosaic House Prague",
+    "stars": 3,
+    "price_per_night": "95.00",
+    "rating": "8.2",
+    "image": "hotel_images/Mosaic_House.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 19,
+  "fields": {
+    "destination": 12,
+    "name": "Hotel Josef Prague",
+    "stars": 4,
+    "price_per_night": "160.00",
+    "rating": "8.5",
+    "image": "hotel_images/Hotel_Josef.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 1,
+  "fields": {
+    "destination": 11,
+    "name": "Hotel Arts Barcelona",
+    "stars": 5,
+    "price_per_night": "350.00",
+    "rating": "9.2",
+    "image": "hotel_images/hotel_arts.webp"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 45,
+  "fields": {
+    "destination": 22,
+    "name": "Royal Mansour Marrakech",
+    "stars": 5,
+    "price_per_night": "680.00",
+    "rating": "9.8",
+    "image": "hotel_images/royal_mansour_marrakech.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 44,
+  "fields": {
+    "destination": 22,
+    "name": "La Mamounia Marrakech",
+    "stars": 5,
+    "price_per_night": "450.00",
+    "rating": "9.6",
+    "image": "hotel_images/la_mamounia.avif"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 43,
+  "fields": {
+    "destination": 21,
+    "name": "Hotel Stari Grad Dubrovnik",
+    "stars": 4,
+    "price_per_night": "180.00",
+    "rating": "8.7",
+    "image": "hotel_images/hotel_stari_grad.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 42,
+  "fields": {
+    "destination": 21,
+    "name": "Hilton Imperial Dubrovnik",
+    "stars": 5,
+    "price_per_night": "295.00",
+    "rating": "9.0",
+    "image": "hotel_images/hilton_imperial.avif"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 41,
+  "fields": {
+    "destination": 21,
+    "name": "Hotel Excelsior Dubrovnik",
+    "stars": 5,
+    "price_per_night": "340.00",
+    "rating": "9.2",
+    "image": "hotel_images/Hotel_Excelsior.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 40,
+  "fields": {
+    "destination": 20,
+    "name": "Das Triest Hotel Vienna",
+    "stars": 5,
+    "price_per_night": "290.00",
+    "rating": "9.0",
+    "image": "hotel_images/Das_Triest_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 39,
+  "fields": {
+    "destination": 20,
+    "name": "Hotel Sacher Wien",
+    "stars": 5,
+    "price_per_night": "380.00",
+    "rating": "9.3",
+    "image": "hotel_images/Hotel_Sacher.webp"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 38,
+  "fields": {
+    "destination": 19,
+    "name": "Sultan Cave Suites",
+    "stars": 4,
+    "price_per_night": "145.00",
+    "rating": "9.0",
+    "image": "hotel_images/Sultan_Cave_Suites.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 37,
+  "fields": {
+    "destination": 19,
+    "name": "Argos In Cappadocia",
+    "stars": 5,
+    "price_per_night": "270.00",
+    "rating": "9.4",
+    "image": "hotel_images/Argos.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 36,
+  "fields": {
+    "destination": 19,
+    "name": "Museum Hotel Cappadocia",
+    "stars": 5,
+    "price_per_night": "310.00",
+    "rating": "9.6",
+    "image": "hotel_images/Museum_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 35,
+  "fields": {
+    "destination": 18,
+    "name": "Ciragan Palace Kempinski",
+    "stars": 5,
+    "price_per_night": "580.00",
+    "rating": "9.7",
+    "image": "hotel_images/Ciragan_Palace_Kempinski.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 34,
+  "fields": {
+    "destination": 18,
+    "name": "Four Seasons Istanbul",
+    "stars": 5,
+    "price_per_night": "420.00",
+    "rating": "9.5",
+    "image": "hotel_images/Four_Seasons.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 33,
+  "fields": {
+    "destination": 17,
+    "name": "Iberotel Makadi Beach",
+    "stars": 4,
+    "price_per_night": "130.00",
+    "rating": "8.4",
+    "image": "hotel_images/Iberotel_Makadi_Beach.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 32,
+  "fields": {
+    "destination": 17,
+    "name": "Kempinski Hotel Soma Bay",
+    "stars": 5,
+    "price_per_night": "260.00",
+    "rating": "9.1",
+    "image": "hotel_images/Kempinski_Hotel_Soma_Bay.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 31,
+  "fields": {
+    "destination": 17,
+    "name": "Steigenberger Cecil Alexandria",
+    "stars": 5,
+    "price_per_night": "195.00",
+    "rating": "8.9",
+    "image": "hotel_images/Steigenberger_Cecil_Alexandria.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 30,
+  "fields": {
+    "destination": 16,
+    "name": "Hotel Memmo Alfama",
+    "stars": 4,
+    "price_per_night": "170.00",
+    "rating": "8.8",
+    "image": "hotel_images/Hotel_Memmo.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 29,
+  "fields": {
+    "destination": 16,
+    "name": "Bairro Alto Hotel Lisbon",
+    "stars": 5,
+    "price_per_night": "290.00",
+    "rating": "9.3",
+    "image": "hotel_images/Bairro_Alto_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 28,
+  "fields": {
+    "destination": 15,
+    "name": "Ace Hotel New York",
+    "stars": 4,
+    "price_per_night": "250.00",
+    "rating": "8.6",
+    "image": "hotel_images/Ace_Hotel.webp"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 27,
+  "fields": {
+    "destination": 15,
+    "name": "The Standard High Line",
+    "stars": 4,
+    "price_per_night": "320.00",
+    "rating": "8.9",
+    "image": "hotel_images/The_Standard_High_Line.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 26,
+  "fields": {
+    "destination": 15,
+    "name": "The Plaza New York",
+    "stars": 5,
+    "price_per_night": "695.00",
+    "rating": "9.4",
+    "image": "hotel_images/The_Plaza.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 25,
+  "fields": {
+    "destination": 14,
+    "name": "COMO Uma Ubud",
+    "stars": 5,
+    "price_per_night": "320.00",
+    "rating": "9.2",
+    "image": "hotel_images/COMO_Uma_Ubud.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 24,
+  "fields": {
+    "destination": 14,
+    "name": "Four Seasons Resort Bali",
+    "stars": 5,
+    "price_per_night": "480.00",
+    "rating": "9.5",
+    "image": "hotel_images/Four_Seasons_Resort.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 18,
+  "fields": {
+    "destination": 12,
+    "name": "Augustine Hotel Prague",
+    "stars": 5,
+    "price_per_night": "280.00",
+    "rating": "9.3",
+    "image": "hotel_images/Augustine_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 17,
+  "fields": {
+    "destination": 10,
+    "name": "Gili Lankanfushi",
+    "stars": 5,
+    "price_per_night": "950.00",
+    "rating": "9.7",
+    "image": "hotel_images/Gili_Lankanfushi.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 16,
+  "fields": {
+    "destination": 10,
+    "name": "Soneva Jani Maldives",
+    "stars": 5,
+    "price_per_night": "1200.00",
+    "rating": "9.9",
+    "image": "hotel_images/Soneva_Jani.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 15,
+  "fields": {
+    "destination": 9,
+    "name": "Address Downtown Dubai",
+    "stars": 5,
+    "price_per_night": "480.00",
+    "rating": "9.1",
+    "image": "hotel_images/Address_Downtown.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 14,
+  "fields": {
+    "destination": 9,
+    "name": "Atlantis The Palm",
+    "stars": 5,
+    "price_per_night": "650.00",
+    "rating": "9.3",
+    "image": "hotel_images/Atlantis_The_Palm.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 13,
+  "fields": {
+    "destination": 9,
+    "name": "Burj Al Arab Jumeirah",
+    "stars": 5,
+    "price_per_night": "980.00",
+    "rating": "9.8",
+    "image": "hotel_images/Burj_Al_Arab_Jumeirah.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 12,
+  "fields": {
+    "destination": 7,
+    "name": "Hotel Raphael Roma",
+    "stars": 4,
+    "price_per_night": "220.00",
+    "rating": "8.8",
+    "image": "hotel_images/Hotel_Raphael.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 11,
+  "fields": {
+    "destination": 7,
+    "name": "Hotel de Russie",
+    "stars": 5,
+    "price_per_night": "360.00",
+    "rating": "9.1",
+    "image": "hotel_images/Hotel_de_Russie.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 10,
+  "fields": {
+    "destination": 7,
+    "name": "Hotel Hassler Roma",
+    "stars": 5,
+    "price_per_night": "420.00",
+    "rating": "9.4",
+    "image": "hotel_images/Hotel_Hassler.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 9,
+  "fields": {
+    "destination": 6,
+    "name": "Hotel V Nesplein",
+    "stars": 4,
+    "price_per_night": "175.00",
+    "rating": "8.6",
+    "image": "hotel_images/Hotel_V_Nesplein.webp"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 8,
+  "fields": {
+    "destination": 6,
+    "name": "Conservatorium Hotel Amsterdam",
+    "stars": 5,
+    "price_per_night": "310.00",
+    "rating": "9.2",
+    "image": "hotel_images/Conservatorium_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 7,
+  "fields": {
+    "destination": 5,
+    "name": "Hotel Plaza Athenee",
+    "stars": 5,
+    "price_per_night": "390.00",
+    "rating": "9.3",
+    "image": "hotel_images/Hotel_Plaza_Athenee.webp"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 6,
+  "fields": {
+    "destination": 5,
+    "name": "Hotel Le Meurice",
+    "stars": 5,
+    "price_per_night": "450.00",
+    "rating": "9.5",
+    "image": "hotel_images/Hotel_Le_Meurice.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 5,
+  "fields": {
+    "destination": 2,
+    "name": "Canaves Oia Hotel",
+    "stars": 4,
+    "price_per_night": "190.00",
+    "rating": "8.7",
+    "image": "hotel_images/Canaves_Oia_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 4,
+  "fields": {
+    "destination": 2,
+    "name": "Mystique Hotel Santorini",
+    "stars": 5,
+    "price_per_night": "280.00",
+    "rating": "9.4",
+    "image": "hotel_images/Mystique_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 3,
+  "fields": {
+    "destination": 2,
+    "name": "Santorini Palace Hotel",
+    "stars": 5,
+    "price_per_night": "320.00",
+    "rating": "9.1",
+    "image": "hotel_images/Palace_Hotel.jpg"
+  }
+},
+{
+  "model": "hotels.hotel",
+  "pk": 2,
+  "fields": {
+    "destination": 11,
+    "name": "Hotel Catalonia Barcelona Plaza",
+    "stars": 4,
+    "price_per_night": "180.00",
+    "rating": "8.1",
+    "image": "hotel_images/Excelsior.jpg"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 1,
+  "fields": {
+    "hotel": 1,
+    "author": "Марија Т.",
+    "rating": 9,
+    "comment": "Прекрасен хотел со неверојатен поглед на морето. Персоналот беше многу љубезен и услугата беше на највисоко ниво.",
+    "created_at": "2026-06-29T08:58:17.841Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 2,
+  "fields": {
+    "hotel": 1,
+    "author": "Александар В.",
+    "rating": 8,
+    "comment": "Одличен престој, убава локација и чисти соби. Препорачувам за семејни патувања.",
+    "created_at": "2026-06-29T09:06:38.008Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 3,
+  "fields": {
+    "hotel": 3,
+    "author": "Марија Т.",
+    "rating": 9,
+    "comment": "Прекрасен хотел со неверојатен поглед на морето. Персоналот беше многу љубезен и услугата беше на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 4,
+  "fields": {
+    "hotel": 3,
+    "author": "Александар В.",
+    "rating": 8,
+    "comment": "Одличен престој, убава локација и чисти соби. Препорачувам за семејни патувања.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 5,
+  "fields": {
+    "hotel": 4,
+    "author": "Елена С.",
+    "rating": 10,
+    "comment": "Апсолутно совршен хотел! Романтична атмосфера и неверојатен залез на сонцето.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 6,
+  "fields": {
+    "hotel": 4,
+    "author": "Никола П.",
+    "rating": 9,
+    "comment": "Прекрасни соби со директен поглед на морето. Ќе се вратиме дефинитивно!",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 7,
+  "fields": {
+    "hotel": 4,
+    "author": "Сара М.",
+    "rating": 9,
+    "comment": "Фантастична услуга и убава архитектура. Едно од најдобрите места каде сум биле.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 8,
+  "fields": {
+    "hotel": 5,
+    "author": "Борис К.",
+    "rating": 8,
+    "comment": "Прекрасна локација. Малку скапо но вреди секоја пара.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 9,
+  "fields": {
+    "hotel": 5,
+    "author": "Ивана Р.",
+    "rating": 9,
+    "comment": "Совршен хотел за романтичен одмор. Персоналот е многу внимателен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 10,
+  "fields": {
+    "hotel": 6,
+    "author": "Томислав Б.",
+    "rating": 10,
+    "comment": "Луксузен хотел во срцето на Париз. Храната е извонредна, собите се огромни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 11,
+  "fields": {
+    "hotel": 6,
+    "author": "Ана В.",
+    "rating": 9,
+    "comment": "Класичен париски луксуз. Прекрасен поглед кон градскиот парк.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 12,
+  "fields": {
+    "hotel": 6,
+    "author": "Давид М.",
+    "rating": 10,
+    "comment": "Совршена услуга од прв до последен момент. Вистинска петзвездена искуство.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 13,
+  "fields": {
+    "hotel": 7,
+    "author": "Кристина Ф.",
+    "rating": 9,
+    "comment": "Иконски хотел со поглед на Ајфеловата кула. Неверојатна атмосфера.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 14,
+  "fields": {
+    "hotel": 7,
+    "author": "Петар Д.",
+    "rating": 8,
+    "comment": "Елегантен и луксузен. Рестораните се на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 15,
+  "fields": {
+    "hotel": 8,
+    "author": "Лаура Х.",
+    "rating": 9,
+    "comment": "Уникатен хотел во реновирана зграда. Дизајнот е неверојатен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 16,
+  "fields": {
+    "hotel": 8,
+    "author": "Јане В.",
+    "rating": 8,
+    "comment": "Централна локација, убави соби и одличен базен. Многу препорачувам.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 17,
+  "fields": {
+    "hotel": 8,
+    "author": "Соња Д.",
+    "rating": 9,
+    "comment": "Прекрасна комбинација на историја и модерен дизајн. Ресторанот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 18,
+  "fields": {
+    "hotel": 9,
+    "author": "Методи Р.",
+    "rating": 8,
+    "comment": "Хип и модерен хотел во центарот. Одлична атмосфера.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 19,
+  "fields": {
+    "hotel": 9,
+    "author": "Емилија Л.",
+    "rating": 7,
+    "comment": "Убав хотел со добра локација. Персоналот е пријателски настроен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 20,
+  "fields": {
+    "hotel": 10,
+    "author": "Лука Б.",
+    "rating": 10,
+    "comment": "Неверојатен поглед на градот. Совршена услуга и луксузни соби.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 21,
+  "fields": {
+    "hotel": 10,
+    "author": "Весна М.",
+    "rating": 9,
+    "comment": "Класичен луксуз. Ресторанот на покривот е задолжителен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 22,
+  "fields": {
+    "hotel": 10,
+    "author": "Франческа Р.",
+    "rating": 10,
+    "comment": "Најдобриот хотел во Рим! Персоналот е исклучителен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 23,
+  "fields": {
+    "hotel": 11,
+    "author": "Марко А.",
+    "rating": 9,
+    "comment": "Прекрасна градина и убави соби. Локацијата е совршена.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 24,
+  "fields": {
+    "hotel": 11,
+    "author": "Валентина К.",
+    "rating": 8,
+    "comment": "Елегантен хотел со одличен спа центар. Многу релаксирачко искуство.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 25,
+  "fields": {
+    "hotel": 12,
+    "author": "Стефан Б.",
+    "rating": 8,
+    "comment": "Романтичен хотел со уникатна атмосфера во срцето на Рим.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 26,
+  "fields": {
+    "hotel": 12,
+    "author": "Антонела Р.",
+    "rating": 7,
+    "comment": "Убав хотел со добра локација. Собите се мали но пријатни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 27,
+  "fields": {
+    "hotel": 12,
+    "author": "Павле М.",
+    "rating": 8,
+    "comment": "Одличен персонал и убав поглед. Ресторанот на покривот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 28,
+  "fields": {
+    "hotel": 13,
+    "author": "Ахмет К.",
+    "rating": 10,
+    "comment": "Најлуксузниот хотел на светот! Секој детаљ е совршен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 29,
+  "fields": {
+    "hotel": 13,
+    "author": "Сара Ј.",
+    "rating": 10,
+    "comment": "Неверојатно искуство. Собите се огромни и услугата е на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 30,
+  "fields": {
+    "hotel": 13,
+    "author": "Мустафа А.",
+    "rating": 10,
+    "comment": "Апсолутен луксуз. Вреди секоја пара за незаборавно искуство.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 31,
+  "fields": {
+    "hotel": 14,
+    "author": "Горан О.",
+    "rating": 9,
+    "comment": "Фантастичен хотел со аквапарк. Децата беа воодушевени!",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 32,
+  "fields": {
+    "hotel": 14,
+    "author": "Емилија Т.",
+    "rating": 8,
+    "comment": "Одличен за семејства. Плажата е прекрасна и базените се огромни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 33,
+  "fields": {
+    "hotel": 15,
+    "author": "Кирил Н.",
+    "rating": 9,
+    "comment": "Неверојатен поглед на градот. Модерен и луксузен хотел.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 34,
+  "fields": {
+    "hotel": 15,
+    "author": "Лина М.",
+    "rating": 8,
+    "comment": "Одлична локација и прекрасни соби. Спа центарот е исклучителен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 35,
+  "fields": {
+    "hotel": 15,
+    "author": "Огнен Х.",
+    "rating": 9,
+    "comment": "Совршен хотел во центарот. Ресторанот е на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 36,
+  "fields": {
+    "hotel": 16,
+    "author": "Јасмина В.",
+    "rating": 10,
+    "comment": "Рај на земјата! Водените вили се неверојатни и морето е кристално чисто.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 37,
+  "fields": {
+    "hotel": 16,
+    "author": "Оливера С.",
+    "rating": 10,
+    "comment": "Совршен медениот месец. Приватноста и луксузот се на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 38,
+  "fields": {
+    "hotel": 16,
+    "author": "Христијан Б.",
+    "rating": 10,
+    "comment": "Најдоброто место каде сум биле во животот. Апсолутно совршено.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 39,
+  "fields": {
+    "hotel": 17,
+    "author": "Изабела Р.",
+    "rating": 10,
+    "comment": "Неверојатен хотел на вода. Морето е прекрасно.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 40,
+  "fields": {
+    "hotel": 17,
+    "author": "Томислав К.",
+    "rating": 9,
+    "comment": "Луксузно и еколошки свесно. Персоналот е исклучителен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 43,
+  "fields": {
+    "hotel": 2,
+    "author": "Перо Г.",
+    "rating": 8,
+    "comment": "Централна локација и удобни соби. Одличен однос цена-квалитет.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 44,
+  "fields": {
+    "hotel": 2,
+    "author": "Моника В.",
+    "rating": 7,
+    "comment": "Добар хотел за бизнис патувања. Персоналот е пријателски настроен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 45,
+  "fields": {
+    "hotel": 2,
+    "author": "Жарко Б.",
+    "rating": 8,
+    "comment": "Убав хотел со добри услови. Доручекот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 46,
+  "fields": {
+    "hotel": 18,
+    "author": "Јане Н.",
+    "rating": 9,
+    "comment": "Хотел во реновиран манaстир. Уникатна атмосфера и прекрасни соби.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 47,
+  "fields": {
+    "hotel": 18,
+    "author": "Катерина В.",
+    "rating": 10,
+    "comment": "Совршен хотел со неверојатна историја. Баровите и ресторанот се одлични.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 48,
+  "fields": {
+    "hotel": 19,
+    "author": "Петар Х.",
+    "rating": 8,
+    "comment": "Модерен дизајн во срцето на Прага. Одличен персонал и убави соби.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 49,
+  "fields": {
+    "hotel": 19,
+    "author": "Мартина С.",
+    "rating": 7,
+    "comment": "Убав хотел со добра локација. Доручекот може да се подобри.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 50,
+  "fields": {
+    "hotel": 19,
+    "author": "Лука Б.",
+    "rating": 8,
+    "comment": "Одличен хотел за истражување на Прага. Блиску до сите атракции.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 51,
+  "fields": {
+    "hotel": 20,
+    "author": "Адам К.",
+    "rating": 8,
+    "comment": "Пријатен хотел со одлична атмосфера. Многу добар за млади патници.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 52,
+  "fields": {
+    "hotel": 20,
+    "author": "Зузана Р.",
+    "rating": 7,
+    "comment": "Добра локација и пријателски персонал. Одличен однос цена-квалитет.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 53,
+  "fields": {
+    "hotel": 21,
+    "author": "Кенан Т.",
+    "rating": 10,
+    "comment": "Неверојатен поглед на планината. Собите се огромни и луксузни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 54,
+  "fields": {
+    "hotel": 21,
+    "author": "Јулија Ј.",
+    "rating": 9,
+    "comment": "Легендарен хотел. Совршен во секој поглед.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 55,
+  "fields": {
+    "hotel": 21,
+    "author": "Сашка М.",
+    "rating": 10,
+    "comment": "Исклучителна услуга и прекрасни соби. Баровите се незаборавни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 56,
+  "fields": {
+    "hotel": 22,
+    "author": "Христо В.",
+    "rating": 10,
+    "comment": "Минималистички луксуз на највисоко ниво. Спа центарот е феноменален.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 57,
+  "fields": {
+    "hotel": 22,
+    "author": "Наташа К.",
+    "rating": 10,
+    "comment": "Совршена комбинација на јапонска естетика и модерен луксуз.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 58,
+  "fields": {
+    "hotel": 23,
+    "author": "Тодор О.",
+    "rating": 8,
+    "comment": "Модерен и стилски хотел. Одлична локација за разгледување.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 59,
+  "fields": {
+    "hotel": 23,
+    "author": "Ана Р.",
+    "rating": 7,
+    "comment": "Убав хотел со добра локација. Персоналот е многу љубезен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 60,
+  "fields": {
+    "hotel": 23,
+    "author": "Рената М.",
+    "rating": 8,
+    "comment": "Добар хотел за истражување на Токио. Собите се мали но добро дизајнирани.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 61,
+  "fields": {
+    "hotel": 24,
+    "author": "Патрик А.",
+    "rating": 10,
+    "comment": "Рај во срцето на Бали. Виилте над оризовите тераси се неверојатни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 62,
+  "fields": {
+    "hotel": 24,
+    "author": "Викторија С.",
+    "rating": 9,
+    "comment": "Прекрасни вили со приватен базен. Спа третманите се извонредни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 63,
+  "fields": {
+    "hotel": 25,
+    "author": "Николина Д.",
+    "rating": 9,
+    "comment": "Елегантен хотел со прекрасна природа. Јогата и медитацијата се одлични.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 64,
+  "fields": {
+    "hotel": 25,
+    "author": "Кире Р.",
+    "rating": 8,
+    "comment": "Убав ризорт со добра храна и прекрасни соби. Персоналот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 65,
+  "fields": {
+    "hotel": 25,
+    "author": "Маја А.",
+    "rating": 9,
+    "comment": "Совршено место за релаксација. Погледот на шумата е неверојатен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 66,
+  "fields": {
+    "hotel": 26,
+    "author": "Михаил Б.",
+    "rating": 10,
+    "comment": "Иконски хотел во срцето на градот. Историјата и луксузот се чувствуваат насекаде.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 67,
+  "fields": {
+    "hotel": 26,
+    "author": "Јелена Т.",
+    "rating": 9,
+    "comment": "Прекрасен хотел со одлична услуга. Погледот на паркот е неверојатен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 68,
+  "fields": {
+    "hotel": 27,
+    "author": "Лиља М.",
+    "rating": 8,
+    "comment": "Хип и модерен хотел со одличен поглед. Баровите се одлични.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 69,
+  "fields": {
+    "hotel": 27,
+    "author": "Ноа В.",
+    "rating": 8,
+    "comment": "Трендовски хотел со одлична локација. Ресторанот е многу добар.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 70,
+  "fields": {
+    "hotel": 27,
+    "author": "Зора Р.",
+    "rating": 7,
+    "comment": "Добар хотел со убав дизајн. Персоналот е пријателски настроен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 71,
+  "fields": {
+    "hotel": 28,
+    "author": "Ема Х.",
+    "rating": 8,
+    "comment": "Кул и уникатен хотел. Лобито е одлично место за дружење.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 72,
+  "fields": {
+    "hotel": 28,
+    "author": "Оливер С.",
+    "rating": 7,
+    "comment": "Добар хотел за млади патници. Локацијата е совршена.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 73,
+  "fields": {
+    "hotel": 29,
+    "author": "Жарко М.",
+    "rating": 9,
+    "comment": "Елегантен хотел во историскиот квартал. Погледот на градот е прекрасен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 74,
+  "fields": {
+    "hotel": 29,
+    "author": "Ана С.",
+    "rating": 10,
+    "comment": "Совршен хотел со извонредна услуга. Ресторанот е на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 75,
+  "fields": {
+    "hotel": 29,
+    "author": "Миле Р.",
+    "rating": 9,
+    "comment": "Прекрасни соби и одличен персонал. Многу препорачувам.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 76,
+  "fields": {
+    "hotel": 30,
+    "author": "Катерина В.",
+    "rating": 8,
+    "comment": "Убав бутик хотел со прекрасен поглед. Базенот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 77,
+  "fields": {
+    "hotel": 30,
+    "author": "Педро Л.",
+    "rating": 8,
+    "comment": "Добра локација и убави соби. Доручекот е вкусен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 78,
+  "fields": {
+    "hotel": 31,
+    "author": "Горан П.",
+    "rating": 8,
+    "comment": "Историски хотел со прекрасен поглед на морето. Класична елеганција.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 79,
+  "fields": {
+    "hotel": 31,
+    "author": "Биљана М.",
+    "rating": 7,
+    "comment": "Добар хотел со убава локација. Персоналот е многу љубезен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 80,
+  "fields": {
+    "hotel": 32,
+    "author": "Зоран А.",
+    "rating": 9,
+    "comment": "Прекрасен ризорт на Црвеното море. Нуркањето е фантастично.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 81,
+  "fields": {
+    "hotel": 32,
+    "author": "Снежана Б.",
+    "rating": 9,
+    "comment": "Луксузен хотел со убава плажа. Храната е одлична.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 82,
+  "fields": {
+    "hotel": 32,
+    "author": "Влатко К.",
+    "rating": 8,
+    "comment": "Одличен хотел за релаксација. Базените се прекрасни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 83,
+  "fields": {
+    "hotel": 33,
+    "author": "Дарко Р.",
+    "rating": 8,
+    "comment": "Убав хотел со директен излез на плажа. Анимацијата е одлична.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 84,
+  "fields": {
+    "hotel": 33,
+    "author": "Светлана М.",
+    "rating": 7,
+    "comment": "Добар хотел за семејни одмори. Децата имаа одлично време.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 85,
+  "fields": {
+    "hotel": 34,
+    "author": "Ненад Т.",
+    "rating": 9,
+    "comment": "Луксузен хотел во реновиран затвор. Уникатна историска атмосфера.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 86,
+  "fields": {
+    "hotel": 34,
+    "author": "Мирјана С.",
+    "rating": 10,
+    "comment": "Совршена услуга и прекрасни соби. Погледот на Босфорот е незаборавен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 87,
+  "fields": {
+    "hotel": 35,
+    "author": "Бојан А.",
+    "rating": 10,
+    "comment": "Неверојатен палатен хотел на Босфорот. Базенот во морето е уникатен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 88,
+  "fields": {
+    "hotel": 35,
+    "author": "Драгана В.",
+    "rating": 10,
+    "comment": "Совршен луксуз со поглед на водата. Незаборавно искуство.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 89,
+  "fields": {
+    "hotel": 35,
+    "author": "Слободан М.",
+    "rating": 9,
+    "comment": "Историски хотел со прекрасна локација. Ресторанот е на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 90,
+  "fields": {
+    "hotel": 36,
+    "author": "Александра Б.",
+    "rating": 10,
+    "comment": "Неверојатен хотел издлабен во карпа. Погледот на балоните е магичен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 91,
+  "fields": {
+    "hotel": 36,
+    "author": "Страхиња К.",
+    "rating": 9,
+    "comment": "Уникатно искуство. Собите во карпа се фасцинантни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 92,
+  "fields": {
+    "hotel": 37,
+    "author": "Тијана Р.",
+    "rating": 9,
+    "comment": "Прекрасен хотел со вино подрум. Атмосферата е неверојатна.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 93,
+  "fields": {
+    "hotel": 37,
+    "author": "Немања С.",
+    "rating": 9,
+    "comment": "Романтичен хотел со совршен поглед. Вечерите се незаборавни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 94,
+  "fields": {
+    "hotel": 37,
+    "author": "Јована М.",
+    "rating": 10,
+    "comment": "Еден од најубавите хотели каде сум биле. Апсолутно препорачувам.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 95,
+  "fields": {
+    "hotel": 38,
+    "author": "Дејан П.",
+    "rating": 8,
+    "comment": "Убав хотел со прекрасен поглед на долината. Персоналот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 96,
+  "fields": {
+    "hotel": 38,
+    "author": "Сандра Т.",
+    "rating": 9,
+    "comment": "Прекрасни соби во карпа. Доручекот на тераса е незаборавен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 97,
+  "fields": {
+    "hotel": 39,
+    "author": "Милица Б.",
+    "rating": 10,
+    "comment": "Легендарниот хотел на Виена. Захертортата е совршена!",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 98,
+  "fields": {
+    "hotel": 39,
+    "author": "Радован К.",
+    "rating": 9,
+    "comment": "Класичен бечки луксуз. Персоналот е исклучително учтив.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 99,
+  "fields": {
+    "hotel": 39,
+    "author": "Верица М.",
+    "rating": 10,
+    "comment": "Историски хотел со прекрасна атмосфера. Незаборавно искуство.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 100,
+  "fields": {
+    "hotel": 40,
+    "author": "Предраг Р.",
+    "rating": 9,
+    "comment": "Модерен бутик хотел во Виена. Одличен дизајн и услуга.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 101,
+  "fields": {
+    "hotel": 40,
+    "author": "Наташа С.",
+    "rating": 8,
+    "comment": "Убав хотел со добра локација. Базенот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 102,
+  "fields": {
+    "hotel": 41,
+    "author": "Мирко Т.",
+    "rating": 9,
+    "comment": "Прекрасен поглед на Јадранско море. Луксузен хотел со одлична услуга.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 103,
+  "fields": {
+    "hotel": 41,
+    "author": "Данијела А.",
+    "rating": 10,
+    "comment": "Совршен хотел за одмор во Дубровник. Плажата е прекрасна.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 104,
+  "fields": {
+    "hotel": 41,
+    "author": "Владимир Б.",
+    "rating": 9,
+    "comment": "Исклучителна услуга и убави соби. Многу препорачувам.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 105,
+  "fields": {
+    "hotel": 42,
+    "author": "Иван Р.",
+    "rating": 9,
+    "comment": "Луксузен хотел со поглед на Старата Чаршија. Одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 106,
+  "fields": {
+    "hotel": 42,
+    "author": "Татјана М.",
+    "rating": 8,
+    "comment": "Убав хотел со добра локација. Ресторанот е одличен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 107,
+  "fields": {
+    "hotel": 43,
+    "author": "Ристо К.",
+    "rating": 8,
+    "comment": "Пријатен хотел во срцето на Старот Град. Уникатна атмосфера.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 108,
+  "fields": {
+    "hotel": 43,
+    "author": "Елена Б.",
+    "rating": 7,
+    "comment": "Добар хотел со историска атмосфера. Собите се мали но пријатни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 109,
+  "fields": {
+    "hotel": 43,
+    "author": "Стево П.",
+    "rating": 8,
+    "comment": "Одлична локација за пешачење до сите атракции. Персоналот е љубезен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 110,
+  "fields": {
+    "hotel": 44,
+    "author": "Симона В.",
+    "rating": 10,
+    "comment": "Легендарниот хотел на Мараkeш. Градините се неверојатни.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 111,
+  "fields": {
+    "hotel": 44,
+    "author": "Бранко Т.",
+    "rating": 9,
+    "comment": "Ориентална раскош на највисоко ниво. Спа центарот е феноменален.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 112,
+  "fields": {
+    "hotel": 45,
+    "author": "Весна Р.",
+    "rating": 10,
+    "comment": "Приватни риади за секој гостин. Апсолутен луксуз и приватност.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 113,
+  "fields": {
+    "hotel": 45,
+    "author": "Дарко М.",
+    "rating": 10,
+    "comment": "Неверојатен хотел со совршена услуга. Храната е на највисоко ниво.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 114,
+  "fields": {
+    "hotel": 45,
+    "author": "Гордана С.",
+    "rating": 10,
+    "comment": "Најлуксузниот хотел каде сум биле. Секој детаљ е совршен.",
+    "created_at": "2026-06-29T09:11:45.245Z"
+  }
+}
+]
