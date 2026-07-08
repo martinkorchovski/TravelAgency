@@ -2,7 +2,7 @@
 
 Проект за туристичка агенција што го изработивме со Django (бекенд) и Vue 3 (фронтенд).
 
-## Технологии што ги користев
+## Технологии што ги користевме
 - **Backend:** Django, Django REST Framework, Simple JWT (за автентикација), django-cors-headers, PostgreSQL
 - **Frontend:** Vue 3 + TypeScript, Vite, Pinia, Vue Router, Tailwind CSS
 
