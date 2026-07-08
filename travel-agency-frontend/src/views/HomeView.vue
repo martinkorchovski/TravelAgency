@@ -39,12 +39,20 @@ function handleSearch() {
       <div class="relative z-10 text-center px-6">
         <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">Откријте го светот со нас</h1>
         <p class="text-xl mb-8 drop-shadow">Најдобри дестинации, најдобри цени — резервирај онлајн</p>
-        <RouterLink
-            to="/destinations"
-            class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-10 py-4 rounded-full text-lg transition"
-        >
-          Погледни дестинации
-        </RouterLink>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <RouterLink
+              to="/destinations"
+              class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-10 py-4 rounded-full text-lg transition"
+          >
+            Погледни дестинации
+          </RouterLink>
+          <RouterLink
+              to="/bookings"
+              class="bg-white/10 hover:bg-white/20 border-2 border-white text-white font-bold px-10 py-4 rounded-full text-lg backdrop-blur-sm transition hover:scale-105"
+          >
+            Резервирај сега
+          </RouterLink>
+        </div>
       </div>
     </div>
 
