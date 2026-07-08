@@ -29,5 +29,5 @@ npm run dev
 ```
 
 ## Алатки што ги користевме за развој
-- Backend го работев во **PyCharm**
-- Frontend го работев во **Visual Studio Code**, со Vue.volar екстензија
+- Backend го работевме во **PyCharm**
+- Frontend го работевме во **Visual Studio Code**, со Vue.volar екстензија
