@@ -1,6 +1,11 @@
 # Travel Agency
 
-Проект за туристичка агенција што го изработивме со Django (бекенд) и Vue 3 (фронтенд).
+## Изработиле: 
+
+- Михаела Крстевска, 233012
+- Теа Кочоска, 233023
+- Александар Костовски, 233299
+- Мартин Корчовски, 233284
 
 ## Технологии што ги користевме
 - **Backend:** Django, Django REST Framework, Simple JWT (за автентикација), django-cors-headers, PostgreSQL
@@ -8,7 +13,7 @@
 
 ## Структура на проектот
 -travel-agency-backend/    # Django API - апликации: destinations, bookings, users, hotels, reviews...
-travel-agency-frontend/   # Vue 3 апликација - views, components, stores, api
+-travel-agency-frontend/   # Vue 3 апликација - views, components, stores, api
 
 ## Како да се стартува апликацијата
 
